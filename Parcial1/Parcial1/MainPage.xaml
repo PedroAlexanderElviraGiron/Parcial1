@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parcial1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="MediumPurple">
+            <Label Text="Desglose de Dinero" HorizontalTextAlignment="Center" TextColor="Black" TextDecorations="None" FontSize="55" />
+        </Frame>
+        <Label Text="Ingrese la cantidad en Quetzalez" FontSize="32"  HorizontalTextAlignment="Center" Padding="30,10,30,10" TextColor="Black"/>
+        <Entry Placeholder="Cantidad en Quetzales" TextColor="Black" FontSize="28" x:Name="linea"/>
+        <Button Text="Presione para Realizar el Desglose de Dinero" TextColor="White" Clicked="Button_Clicked" BackgroundColor="BLue"/>
+        <Label Text ="" x:Name="BILLEDOCIEN" TextColor="Black" FontSize="18"/>
+        <Label Text ="" x:Name="BILLECIEN" TextColor="Black" FontSize="18"/>
+        <Label Text ="" x:Name="BILLECINCUE" TextColor="Black" FontSize="18"/>
+        <Label Text ="" x:Name="BILLEVEINT" TextColor="Black" FontSize="18"/>
+        <Label Text ="" x:Name="BILLEDIEZ" TextColor="Black" FontSize="18"/>
+        <Label Text ="" x:Name="BILLECINCO" TextColor="Black" FontSize="18"/>
+        <Label Text ="" x:Name="BILLEUNO" TextColor="Black" FontSize="18"/>
+        <Label Text ="" x:Name="MONEDACINCUEN" TextColor="Black" FontSize="18"/>
+        <Label Text ="" x:Name="MONEDAVEINTI" TextColor="Black" FontSize="18"/>
+        <Label Text ="" x:Name="MONEDADIEZ" TextColor="Black" FontSize="18"/>
+        <Label Text ="" x:Name="MONEDACINCO" TextColor="Black" FontSize="18"/>
+        <Label Text ="" x:Name="MONEDAUNO" TextColor="Black" FontSize="18"/>
+    </StackLayout>
+
+</ContentPage>
